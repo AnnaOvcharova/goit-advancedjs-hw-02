@@ -16,3 +16,100 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+header,
+.header {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.container > a,
+.container button:first-child,
+.back-link {
+  margin-bottom: 8px;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 360px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.form input[name='delay'] {
+  width: 100%;
+}
+
+.form fieldset {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 12px;
+}
+
+.form fieldset label {
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+}
